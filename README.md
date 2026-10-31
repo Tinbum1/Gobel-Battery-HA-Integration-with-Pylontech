@@ -2,11 +2,7 @@
 description: Native Home Assistant Integration for Gobel Power Battery BMS
 ---
 
-# Gobel Power Battery Home Assistant Integration (JK BMS, Pace BMS, TDT BMS)
-
-[Deutsch](docs/de/README.md) | [简体中文](docs/zh-cn/README.md)
-
-> **Note**: Looking for the ioBroker version? Check out the [ioBroker Gobel BMS Monitor Adapter](https://github.com/fancyui/ioBroker.gobel-bms-monitor).
+# Gobel Power Battery Home Assistant Integration (JK BMS, Pace BMS, TDT BMS, Pylontech)
 
 The ultimate Home Assistant custom integration for smart energy storage monitoring. This integration communicates directly with your LiFePO4 battery banks running Pace BMS, JK BMS, or TDT BMS hardware, registering them as native entities in Home Assistant.
 
@@ -15,7 +11,7 @@ Unlike the previous Add-on version, this integration **does not require an MQTT 
 ---
 
 ## Key Features & Capabilities:
-* **Multi-BMS Compatibility:** Native support for Pace BMS (RS232/RS485/WiFi), JK BMS (55AA passive protocol), and TDT BMS (RS232).
+* **Multi-BMS Compatibility:** Native support for Pace BMS (RS232/RS485/WiFi), JK BMS (55AA passive protocol), TDT BMS (RS232), and Pylontech.
 * **Versatile Connectivity Options:** Connect directly via RS232-USB, RS232-to-Ethernet, RS232-to-WiFi, RS485-to-Ethernet, or RS485-to-WiFi.
 * **Direct Integration (No MQTT Required):** Create native Home Assistant sensors and binary sensors directly for cell voltages, capacity, current, and faults.
 * **Dynamic Multi-Device & Grouping:** Group overall metrics (Total SOC, Total Voltage, Total Current, etc.) under an aggregate Device, and create child Devices for each physical parallel-connected slave battery pack (fully compatible with Master-Slave dial structures).
